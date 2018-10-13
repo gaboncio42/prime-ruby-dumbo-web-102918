@@ -1,5 +1,3 @@
 def prime?(interger)
-  if interger <= 0 
-    false
-  end
+  (2..integer/2).none?{|i| integer % i == 0 }
 end
